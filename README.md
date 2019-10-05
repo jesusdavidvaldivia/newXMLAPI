@@ -37,7 +37,7 @@ include 'newXMLAPI/newXMLAPI.php';
 use newXMLAPI\newXMLAPI as api;
 
 $api = new api();
-$api->createEmailAccount("gruposhirushi.com","text11311w23","jesusd");
+$api->createEmailAccount("example.com","username","passwd");
 
 if($api->errors()){
     echo $api->errors();
