@@ -16,7 +16,7 @@ class newXMLAPI{
     private $result;
     
     function __construct($domain=null,$user=null,$pass=null){
-        $this->systemAccount = new systemAccount("esdam22q79pr","@Sg3210la"); 
+        $this->systemAccount = new systemAccount("",""); 
         $this->emailAccount = new emailAccount($domain,$user,$pass);
         $this->result = null;
         $this->query = null;
