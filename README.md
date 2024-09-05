@@ -1,5 +1,5 @@
-# newXMLAPI
-CPANEL EMAIL ADDER
+# newXMLAPI for WHM API
+WHM CPANEL EMAIL ADDER
 Simple clase para agregar, modificar y elimianar correos en cpanel desde php, funciona en CPANEL 78.0.38 con cualquier thema.
 hace uso del API 2 WHM API JSON.
 
